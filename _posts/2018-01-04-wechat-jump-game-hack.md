@@ -314,7 +314,7 @@ iproxy 8100 8100
 
 打开另一个 `terminal`
 ```bash
-git clone https://github.com/by-the-w3i/WeChat-JumpGame-hack-iPhone.git
+git clone https://github.com/bythew3i/WeChat-JumpGame-hack-iPhone.git
 cd WeChat-JumpGame-hack-iPhone
 ```
 
@@ -328,4 +328,4 @@ python3 hackjump.py
 <img src="{{page.img-path}}high.png" alt="ad3" width="50%">
 
 #### 项目地址
-Github: https://github.com/by-the-w3i/WeChat-JumpGame-hack-iPhone
+Github: https://github.com/bythew3i/WeChat-JumpGame-hack-iPhone

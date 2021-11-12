@@ -27,14 +27,14 @@ tags:
 
 `注意`：MSUroll **不是黑客攻击程序**，所以不存在违反校规校纪的情况。全程操作属于 **合法合规** 地选课。
 
-`源代码`: [Github](https://github.com/by-the-w3i/MSU_ROLL) , [Documents](https://by-the-w3i.github.io/MSU_ROLL/)
+`源代码`: [Github](https://github.com/bythew3i/MSU_ROLL) , [Documents](https://bythew3i.github.io/MSU_ROLL/)
 
 ## MAC 安装
 #### Step 0: 检查 Mac 版本
 Mac 系统版本 必须 >= `10.13.1` `macOS High Sierra`， 否则 MSUroll 将无法运行
 
 #### Step 1: 下载 MSUroll APP
-下载 `MSUroll_disk.dmg`：[https://github.com/by-the-w3i/MSU_ROLL/releases](https://github.com/by-the-w3i/MSU_ROLL/releases)
+下载 `MSUroll_disk.dmg`：[https://github.com/bythew3i/MSU_ROLL/releases](https://github.com/bythew3i/MSU_ROLL/releases)
 
 
 #### Step 2: 下载安装 chromedriver
@@ -98,7 +98,7 @@ System Preferences >> Security & Privacy >> open MSUroll anyway
 
 ## Windows 安装
 #### Step 1: 下载 MSUroll APP
-下载 `MSUroll_win.zip` : [https://github.com/by-the-w3i/MSU_ROLL/releases](https://github.com/by-the-w3i/MSU_ROLL/releases)
+下载 `MSUroll_win.zip` : [https://github.com/bythew3i/MSU_ROLL/releases](https://github.com/bythew3i/MSU_ROLL/releases)
 
 #### Step 2: 安装 MSUroll
 解压 `MSUroll_win.zip` 得到 `MSUroll_win` 文件夹
@@ -184,7 +184,7 @@ System Preferences >> Security & Privacy >> open MSUroll anyway
 >
 > 如果有选课界面出现异常的 `[ERROR]`
 >
-> 请下载 [MSUroll_disk_debug.dmg](https://github.com/by-the-w3i/MSU_ROLL/releases)
+> 请下载 [MSUroll_disk_debug.dmg](https://github.com/bythew3i/MSU_ROLL/releases)
 >
 > ![warning]({{page.img-path}}mac_download/screenshots/download.png)
 >
