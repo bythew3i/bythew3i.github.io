@@ -195,7 +195,7 @@ System Preferences >> Security & Privacy >> open MSUroll anyway
 -->
 
 
-## 问题反馈与技术交流：
+## 问题反馈与技术交流
 
 `email` : jevin0change@gmail.com
 
