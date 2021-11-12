@@ -1,0 +1,44 @@
+---
+layout: default
+title: Collection
+description: Talk is cheap. Show me the code.
+header-img: img/naruto.jpeg
+header-mask: 0.5
+hide-in-nav: False
+---
+
+<!-- Page Header -->
+{% include intro-header.html type='page' short=true %}
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      {% for category in site.categories %}
+      <div class="mini-post-list js-result">
+        <section>
+          <span class="fa listing-seperator">
+            <span class="tag-text">{{ category[0] }}</span>
+          </span>
+          {% for post in category[1] %}
+          <div class="post-preview item">
+            <span style="color:#c2c2c2;">{{post.date | date: "%m/%d/%Y"}}</span>
+            <a href="{{ post.url }}">
+              <h2 class="post-title">
+                {{post.title}}
+              </h2>
+              <h3 class="post-subtitle">
+                {{post.subtitle}}
+              </h3>
+            </a>
+            <hr>
+          </div>
+          {% endfor %}
+        </section>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
