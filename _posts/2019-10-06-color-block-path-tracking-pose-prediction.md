@@ -4,8 +4,8 @@ title:          Color Block Path Tracking & Pose Prediction
 subtitle:       How to apply Kalman Filter to tracking and prediction?
 date:           2019-10-06
 author:         bythew3i
-img-path:       /img/2019-10-06-color-block-path-tracking-pose-prediction/
-header-img:     img/2019-10-06-color-block-path-tracking-pose-prediction/bg.gif
+assets-path:       /assets/2019-10-06-color-block-path-tracking-pose-prediction/
+header-img:     assets/2019-10-06-color-block-path-tracking-pose-prediction/bg.gif
 header-mask:    0.5
 catalog:        true
 tags:
@@ -36,11 +36,11 @@ First, my main ideas of detecting the color block were coming from these posts:
 
 The `input bag` (video resource) was provided by professor [Marynel VÁZQUEZ](http://www.marynel.net/)
 
-![input]({{page.img-path}}in.gif)
+![input]({{page.assets-path}}in.gif)
 
 After `color filtering`, I was able to capture the movement of the blue block.
 
-![cl]({{page.img-path}}cl.gif)
+![cl]({{page.assets-path}}cl.gif)
 
 
 
@@ -48,12 +48,12 @@ After `color filtering`, I was able to capture the movement of the blue block.
 ## Kalman Filter: Pose Prediction
 
 
-![desc]({{page.img-path}}desc.png)
-![KFA]({{page.img-path}}KFA.jpeg)
+![desc]({{page.assets-path}}desc.png)
+![KFA]({{page.assets-path}}KFA.jpeg)
 
 After applying Kalman Filter Algorithm, I got this output:
 
-![kf]({{page.img-path}}kf.gif)
+![kf]({{page.assets-path}}kf.gif)
 
 > The images sent over the /tracked_image topic display two trajectories: the `red line` connects the observed locations for the target (as received through the /observations topic); and the `thinner green line` connects the estimated location for the target (from the Kalman Filter belief).
 

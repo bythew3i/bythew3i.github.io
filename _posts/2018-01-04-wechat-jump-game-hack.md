@@ -4,13 +4,14 @@ title:          微信「跳一跳」破解程序开发记录
 subtitle:       使用 Mac 与 iPhone 7 实现自动化刷分
 date:           2018-01-04
 author:         bythew3i
-img-path:       /img/2018-01-04-wechat-jump-game-hack/
-header-img:     img/2018-01-04-wechat-jump-game-hack/jumpgame_bg.png
+assets-path:       /assets/2018-01-04-wechat-jump-game-hack/
+header-img:     assets/2018-01-04-wechat-jump-game-hack/jumpgame_bg.png
 catalog:        true
 tags:
     - iOS
     - Hack
     - Python
+    - 中文
 ---
 
 > 闲来没事，赶赶程序员们的新潮，做了一番研究， 写了些代码，自动刷分微信跳一跳小程序
@@ -182,7 +183,7 @@ for i in range(19):
 ```
 
 通过以上算法可以定位 `棋子` 和 `目的地中心位置`
-![sample]({{page.img-path}}sample.png)
+![sample]({{page.assets-path}}sample.png)
 
 #### 结果
 
@@ -325,7 +326,7 @@ python3 hackjump.py
 ```
 
 不要太 `high` 哦. 差不多就行了 ...
-<img src="{{page.img-path}}high.png" alt="ad3" width="50%">
+<img src="{{page.assets-path}}high.png" alt="ad3" width="50%">
 
 #### 项目地址
 Github: https://github.com/bythew3i/WeChat-JumpGame-hack-iPhone

@@ -4,8 +4,8 @@ title:          LEGO EV3 Rubik's Cube Solver
 subtitle:       Build your own LEGO® MINDSTORMS® robot to solve the Rubik's Cube®...
 date:           2018-01-02
 author:         bythew3i
-img-path:       /img/2018-01-02-lego-ev3-rubiks-cube-solver/
-header-img:     img/2018-01-02-lego-ev3-rubiks-cube-solver/ev3cube.png
+assets-path:       /assets/2018-01-02-lego-ev3-rubiks-cube-solver/
+header-img:     assets/2018-01-02-lego-ev3-rubiks-cube-solver/ev3cube.png
 header-mask:    0.6
 catalog:        true
 tags:

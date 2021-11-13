@@ -4,8 +4,8 @@ title:          Estimating depth from images
 subtitle:       Simple experiment of Intel Realsense Camera
 date:           2019-09-25
 author:         bythew3i
-img-path:       /img/2019-09-25-estimating-depth-from-images/
-header-img:     img/2019-09-25-estimating-depth-from-images/bg.png
+assets-path:       /assets/2019-09-25-estimating-depth-from-images/
+header-img:     assets/2019-09-25-estimating-depth-from-images/bg.png
 catalog:        true
 tags:
     - ROS
@@ -126,13 +126,13 @@ print("Difference between estimates: {}".format(average_depth - Z))
 
 > My black Yale notes binder’s height is 29.7cm.
 
-![V-4-1]({{page.img-path}}V-4-1.png)
-![V-4-2]({{page.img-path}}V-4-2.png)
-![V-4-3]({{page.img-path}}V-4-3.png)
+![V-4-1]({{page.assets-path}}V-4-1.png)
+![V-4-2]({{page.assets-path}}V-4-2.png)
+![V-4-3]({{page.assets-path}}V-4-3.png)
 
 #### Output:
 
-![V-4-4]({{page.img-path}}V-4-4.png)
+![V-4-4]({{page.assets-path}}V-4-4.png)
 
 ```
 Top-left: (321, 161)

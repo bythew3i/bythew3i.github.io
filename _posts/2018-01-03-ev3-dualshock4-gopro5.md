@@ -4,8 +4,8 @@ title:          EV3 + DualShock4 + GoPro5
 subtitle:       Use PS4 Controller to remote EV3 cart
 date:           2018-01-03
 author:         bythew3i
-img-path:       /img/2018-01-03-ev3-dualshock4-gopro5/
-header-img:     img/2018-01-03-ev3-dualshock4-gopro5/exp.jpg
+assets-path:       /assets/2018-01-03-ev3-dualshock4-gopro5/
+header-img:     assets/2018-01-03-ev3-dualshock4-gopro5/exp.jpg
 catalog:        true
 tags:
     - Python
@@ -25,8 +25,8 @@ tags:
 ## Controller Key Mapping
 > It took me a while to test the key map. Finally I concluded a full version of key mapping.
 
-![ps4mapping1]({{page.img-path}}ps41.jpg)
-![ps4mapping2]({{page.img-path}}ps42.jpg)
+![ps4mapping1]({{page.assets-path}}ps41.jpg)
+![ps4mapping2]({{page.assets-path}}ps42.jpg)
 
 
 ## Remote Control EV3 LEGO Cart

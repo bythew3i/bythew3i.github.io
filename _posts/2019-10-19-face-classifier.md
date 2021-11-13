@@ -4,8 +4,8 @@ title:          Face Classifier
 subtitle:       A Deep Learning Practice
 date:           2019-10-19
 author:         bythew3i
-img-path:       /img/2019-10-19-face-classifier/
-header-img:     img/2019-10-19-face-classifier/o1.png
+assets-path:       /assets/2019-10-19-face-classifier/
+header-img:     assets/2019-10-19-face-classifier/o1.png
 header-mask:    0.5
 catalog:        true
 tags:
@@ -30,7 +30,7 @@ matplotlib==2.1.1
 
 The input data file is a set of points. A matplotlib plot shows the visualization as below:
 
-![inpd]({{page.img-path}}inputd.png)
+![inpd]({{page.assets-path}}inputd.png)
 
 
 My goal was trying to train a model that maps the points with average `L2 error` on test set less than 200.
@@ -45,12 +45,12 @@ model = tf.keras.models.Model(inputs=inputs, outputs=outputs, name="monkey_model
 ```
 
 Then, I got this output:
-![linear]({{page.img-path}}l.png)
+![linear]({{page.assets-path}}l.png)
 
 `L2 Error` on Testing Set: 856.107943739
 
 So I added more hidden layers. Soon it became `overfit` as the `epoch_mae` read from `Tensorboard`:
-![overfit]({{page.img-path}}II-10.png)
+![overfit]({{page.assets-path}}II-10.png)
 
 Finally after keeping tuning the parameters and layers, I ended up with 3 hiden layers, 16 `batch size`, 1e-2 `learning rate` and 500 `epochs`.
 
@@ -62,7 +62,7 @@ layer = tf.keras.layers.Dense(64, use_bias=True)(layer)
 outputs = tf.keras.layers.Dense(1, use_bias=True)(layer)
 model = tf.keras.models.Model(inputs=inputs, outputs=outputs, name="monkey_model")
 ```
-![overfit]({{page.img-path}}II-9.png)
+![overfit]({{page.assets-path}}II-9.png)
 
 The `L2 Error` on Testing Set is 148.846732932 which reaches my goal -- below 200.
 
@@ -75,7 +75,7 @@ The face detection trainning data set was requested from [Face Detection Dataset
 
 There 11038 training examples. And one sample picture is shown as below:
 
-![overfit]({{page.img-path}}sample.png)
+![overfit]({{page.assets-path}}sample.png)
 
 Note that the `input` is organized as a 4-D tensor of dimension NxHxWxC, where N corresponds to the number of examples, H is the height of input images, W is their width, and C is the number of channels per image. In general, the dataset has color images of 64x64 pixels (i.e., W=H=64 and C=3). The channels are organized in Blue-Green-Red (bgr) order.
 
@@ -103,14 +103,14 @@ model.compile(optimizer=tf.keras.optimizers.Adam(lr=lr),
 
 The ROC curve is shown as below:
 
-![overfit]({{page.img-path}}III-2.png)
+![overfit]({{page.assets-path}}III-2.png)
 
 Finally I tried to run my classifer on other two images. The original image inputs are shown below:
 
-![overfit]({{page.img-path}}i1.jpg)
-![overfit]({{page.img-path}}i2.jpg)
+![overfit]({{page.assets-path}}i1.jpg)
+![overfit]({{page.assets-path}}i2.jpg)
 
 And my outputs are:
 
-![overfit]({{page.img-path}}o1.png)
-![overfit]({{page.img-path}}o2.png)
+![overfit]({{page.assets-path}}o1.png)
+![overfit]({{page.assets-path}}o2.png)

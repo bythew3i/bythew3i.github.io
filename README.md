@@ -1,6 +1,8 @@
 # bythew3i Blog
-- Welcome!
-- Derived from [Hux Blog](https://huangxuan.me/)
+
+Welcome!
+
+This blog is derived from [Hux Blog](https://huangxuan.me/)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -34,7 +36,7 @@ title:          XXX
 subtitle:       XXX
 date:           YYYY-MM-DD | YYYY-MM-DD HH:MM:SS
 author:         XXX
-img-path:       XXX
+assets-path:       XXX
 header-img:     Image Path
 header-mask:    0.3
 catalog:        true

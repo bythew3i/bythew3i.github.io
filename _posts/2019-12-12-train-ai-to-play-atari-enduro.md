@@ -4,8 +4,8 @@ title:          Train AI to play Atari Enduro
 subtitle:       A Reinforcement Learning (DQN) based AI agent
 date:           2019-12-12
 author:         bythew3i
-img-path:       /img/2019-12-12-train-ai-to-play-atari-enduro/
-header-img:     img/2019-12-12-train-ai-to-play-atari-enduro/bg.gif
+assets-path:       /assets/2019-12-12-train-ai-to-play-atari-enduro/
+header-img:     assets/2019-12-12-train-ai-to-play-atari-enduro/bg.gif
 header-mask:    0.1
 catalog:        true
 tags:
@@ -32,13 +32,13 @@ matplotlib
 
 ## Results
 After 1.5 hours training, I get these results:
-![episode_reward_500000]({{page.img-path}}episode_reward_500000.png)
-![episode_steps_500000]({{page.img-path}}episode_steps_500000.png">
+![episode_reward_500000]({{page.assets-path}}episode_reward_500000.png)
+![episode_steps_500000]({{page.assets-path}}episode_steps_500000.png">
 
 
 )ter 10 hours training, I get these results:
-![episode_reward_4000000]({{page.img-path}}episode_reward_4000000.png)
-![episode_steps_4000000]({{page.img-path}}episode_steps_4000000.png)
+![episode_reward_4000000]({{page.assets-path}}episode_reward_4000000.png)
+![episode_steps_4000000]({{page.assets-path}}episode_steps_4000000.png)
 
 
 
