@@ -10,7 +10,7 @@ header-mask:    0.6
 catalog:        true
 tags:
     - EV3
-    - Robot
+    - Robotics
     - LEGO
 ---
 

@@ -10,8 +10,8 @@ header-mask:    0.5
 catalog:        true
 tags:
     - ROS
-    - Robot
-    - CV
+    - Robotics
+    - Vision
     - Python
     - Yale
 ---

@@ -9,8 +9,8 @@ header-img:     img/2019-09-25-estimating-depth-from-images/bg.png
 catalog:        true
 tags:
     - ROS
-    - Robot
-    - CV
+    - Robotics
+    - Vision
     - Python
     - Yale
 ---

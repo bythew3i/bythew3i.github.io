@@ -8,8 +8,8 @@ img-path:       /img/2018-01-04-wechat-jump-game-hack/
 header-img:     img/2018-01-04-wechat-jump-game-hack/jumpgame_bg.png
 catalog:        true
 tags:
-    - ios
-    - hack
+    - iOS
+    - Hack
     - Python
 ---
 

@@ -11,9 +11,8 @@ catalog:        true
 tags:
     - AI/ML
     - CNN
-    - CV
+    - Vision
     - Tensorflow
-    - Keras
     - Python
     - Yale
 ---

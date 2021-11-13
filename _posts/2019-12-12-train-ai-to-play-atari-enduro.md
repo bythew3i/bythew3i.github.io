@@ -5,8 +5,8 @@ subtitle:       A Reinforcement Learning (DQN) based AI agent
 date:           2019-12-12
 author:         bythew3i
 img-path:       /img/2019-12-12-train-ai-to-play-atari-enduro/
-header-img:     img/2019-12-12-train-ai-to-play-atari-enduro/bg.png
-header-mask:    0
+header-img:     img/2019-12-12-train-ai-to-play-atari-enduro/bg.gif
+header-mask:    0.1
 catalog:        true
 tags:
     - AI/ML

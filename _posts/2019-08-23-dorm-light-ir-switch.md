@@ -9,7 +9,7 @@ header-img:     img/2019-08-23-dorm-light-ir-switch/IR_arduino.png
 catalog:        true
 tags:
     - Arduino
-    - Robot
+    - Robotics
     - C/C++
     - Yale
 ---
