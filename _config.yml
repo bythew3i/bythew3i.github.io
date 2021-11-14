@@ -1,7 +1,7 @@
 # Site settings
 title: bythew3i
 SEOTitle: bythew3i | Blog
-header-img: img/home-bg.jpeg
+header-img: assets/home-bg.jpeg
 email: jevin0change@gmail.com
 description: ""
 url: "https://bythew3i.github.io/"              # your host, for absolute URL
@@ -12,11 +12,11 @@ future: true
 
 # SNS settings
 RSS: false
-# weibo_username:     huxpro
-# zhihu_username:     huxpro
+# weibo_username:     xxx
+# zhihu_username:     xxx
 github_username:    bythew3i
-# twitter_username:   huxpro
-# facebook_username:  huxpro
+# twitter_username:   xxx
+# facebook_username:  xxx
 linkedin_username:  jevin-jiang
 email_account:  jevin0change@gmail.com
 
@@ -79,7 +79,7 @@ ga_track_id: 'UA-111690451-1'            # Format: UA-xxxxxx-xx
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "博观而约取，厚积而薄发"
-sidebar-avatar: /img/L.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /assets/L.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -103,9 +103,6 @@ page-mathjax: false
 # Friends
 # friends: [
 #     {
-#         title: "Hux Blog",
-#         href: "http://huangxuan.me"
-#     },{
 #         title: "@be",
 #         href: "https://atbe.me"
 #     }
