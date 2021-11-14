@@ -33,7 +33,7 @@ matplotlib
 ## Results
 After 1.5 hours training, I get these results:
 ![episode_reward_500000]({{page.assets-path}}episode_reward_500000.png)
-![episode_steps_500000]({{page.assets-path}}episode_steps_500000.png">
+![episode_steps_500000]({{page.assets-path}}episode_steps_500000.png)
 
 
 )ter 10 hours training, I get these results:
