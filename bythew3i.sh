@@ -13,9 +13,9 @@ init_post() {
     echo "subtitle:       XXX" >> $file
     echo "date:           $3" >> $file
     echo "author:         bythew3i" >> $file
+    mkdir -p "assets/$3-$1"
+    echo "assets-path:    /assets/$3-$1/" >> $file
     if [[ $4 -eq 1 ]]; then
-        mkdir -p "assets/$3-$1"
-        echo "assets-path:       /assets/$3-$1/" >> $file
         echo "header-img:     assets/$3-$1/XXX" >> $file
         echo "header-mask:    0.5" >> $file
     else
